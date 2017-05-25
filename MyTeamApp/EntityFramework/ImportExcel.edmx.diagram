@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c32fd71681374f179ed341451f7b1836" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.CUM" Width="1.5" PointX="1.5" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DanhMucThietBi" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Head" Width="1.5" PointX="3.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.LICHSU" Width="1.5" PointX="5.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.LoaiKetNoi" Width="1.5" PointX="3.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.LOAITHIETBI" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.LOAITHIETBI_TRANGTHAI" Width="1.5" PointX="3" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.MAYTINH" Width="1.5" PointX="3.75" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.sysdiagram" Width="1.5" PointX="7.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.THIETBI" Width="1.5" PointX="6" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.TRAM" Width="1.5" PointX="1.5" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.TRANGTHAI" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.TRANGTHAITB" Width="1.5" PointX="8.25" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_CUM_TRAM" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Head_CUM" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_MAYTINH_CUM" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_DanhMucThietBi_LOAITHIETBI" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_THIETBI_Head" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_THIETBI_LoaiKetNoi" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_LOAITHIETBI_TRANGTHAI_LOAITHIETBI" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_THIETBI_LOAITHIETBI" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_LOAITHIETBI_TRANGTHAI_TRANGTHAI" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_THIETBI_MAYTINH" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_TRANGTHAITB_THIETBI1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_TRANGTHAITB_TRANGTHAI" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
